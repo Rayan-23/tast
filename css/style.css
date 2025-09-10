@@ -1,0 +1,25 @@
+.swiper {
+  width: 100%;
+  padding: 50px 0;
+}
+.swiper-slide {
+  position: relative;
+  width: 500px;
+}
+
+.swiper-slide .parent {
+  color: black;
+}
+.swiper-slide .parent .content {
+  border: 1px solid;
+
+  width: 400px;
+  height: 400px;
+
+}
+.swiper-slide .parent span {
+  color: var(--red-color);
+}
+.swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
